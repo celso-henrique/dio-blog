@@ -25,7 +25,7 @@ jobs:
       run: npm install
     - name: Generate blog statics
       run: npm run build
-    - uses: actions/upload-atifact@v1
+    - uses: actions/upload-artifact@v1
       with:
         name: public-folder
         path: public
